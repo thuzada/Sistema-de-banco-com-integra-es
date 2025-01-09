@@ -1,7 +1,7 @@
 #ifndef DATABASE_H
 #define DATABASE_H
 
-#include <sqlite3.h>
+#include "../libs/sqlite3.h"
 #include "conta.h"
 
 int abrirBancoDados(sqlite3 **db);

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <sqlite3.h>
+#include "../libs/sqlite3.h"
 #include "../include/operacoes.h"
 
 void depositar(Conta contas[], int numContas, sqlite3 *db) {

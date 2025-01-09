@@ -1,7 +1,7 @@
 #ifndef CONTA_H
 #define CONTA_H
 
-#include <sqlite3.h> // Inclua o cabeçalho sqlite3.h
+#include "../libs/sqlite3.h" // Inclua o cabeçalho sqlite3.h
 
 typedef struct {
     int id;
