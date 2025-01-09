@@ -17,7 +17,7 @@ int main() {
         return 1;
     }
 
-    // Carregar os dados das contas do banco de dados
+    // Carregar os dados das contas do banco de dados HAHAHAHAHAHAH
     if (!carregarDadosBD(contas, &numContas, db)) {
         fprintf(stderr, "Erro ao carregar dados das contas.\n");
         fecharBancoDados(db);
